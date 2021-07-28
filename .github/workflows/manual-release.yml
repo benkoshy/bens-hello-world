@@ -2,14 +2,7 @@
 name: manual-release
 
 on: 
-  workflow_dispatch:
-    inputs:
-      logLevel:
-        description: 'Log level'     
-        required: true
-        default: 'warning'
-      tags:
-        description: 'Test scenario tags'  
+  workflow_dispatch:    
 
 jobs:
   manual-release:
