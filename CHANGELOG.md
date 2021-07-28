@@ -1,5 +1,12 @@
 # Changelog
 
+### [0.2.8](https://www.github.com/benkoshy/bens-hello-world/compare/v0.2.7...v0.2.8) (2021-07-28)
+
+
+### Bug Fixes
+
+* seeing whether a release occurs here ([1e28b24](https://www.github.com/benkoshy/bens-hello-world/commit/1e28b244e986ccc441b6951ba9da22319c41156a))
+
 ### [0.2.7](https://www.github.com/benkoshy/bens-hello-world/compare/v0.2.6...v0.2.7) (2021-07-28)
 
 
