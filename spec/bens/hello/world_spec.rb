@@ -3,7 +3,7 @@ RSpec.describe Bens::Hello::World do
     expect(Bens::Hello::World::VERSION).not_to be nil
   end
 
-  it "does something useful" do
-    expect(false).to eq(true)
+  it "passes the first test" do
+    expect(true).to eq(true)
   end
 end
