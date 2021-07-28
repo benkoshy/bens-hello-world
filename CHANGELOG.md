@@ -1,5 +1,12 @@
 # Changelog
 
+### [0.2.4](https://www.github.com/benkoshy/bens-hello-world/compare/v0.2.3...v0.2.4) (2021-07-28)
+
+
+### Bug Fixes
+
+* gem version ([968de9b](https://www.github.com/benkoshy/bens-hello-world/commit/968de9b3ee872f8be9ad3676e7eb12c20e4c5922))
+
 ### [0.2.3](https://www.github.com/benkoshy/bens-hello-world/compare/v0.2.2...v0.2.3) (2021-07-28)
 
 
