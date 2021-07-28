@@ -20,7 +20,7 @@ jobs:
           # Should breaking changes before 1.0.0 produce minor bumps?
           bump-minor-pre-major: true
           # Path to our version file to increment
-          version-file: "lib/release/bens/hello/world/version.rb"
+          version-file: "lib/bens/hello/world/version.rb"
 
  # Checkout code if release was created
       - uses: actions/checkout@v2
