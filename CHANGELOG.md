@@ -1,5 +1,12 @@
 # Changelog
 
+### [0.1.1](https://www.github.com/benkoshy/bens-hello-world/compare/v0.1.0...v0.1.1) (2021-07-28)
+
+
+### Bug Fixes
+
+* add release workflow ([a243591](https://www.github.com/benkoshy/bens-hello-world/commit/a243591615524000a9f754492bc07f7d65aff4e8))
+
 ## 0.1.0 (2021-07-28)
 
 
