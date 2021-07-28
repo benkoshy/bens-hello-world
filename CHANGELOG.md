@@ -1,5 +1,16 @@
 # Changelog
 
+## [0.3.0](https://www.github.com/benkoshy/bens-hello-world/compare/v0.2.10...v0.3.0) (2021-07-28)
+
+
+### ⚠ BREAKING CHANGES
+
+* randomly change version number
+
+### Bug Fixes
+
+* randomly change version number ([1b61552](https://www.github.com/benkoshy/bens-hello-world/commit/1b6155258fe7b020e302d91f68ab4ab61797e657))
+
 ### [0.2.10](https://www.github.com/benkoshy/bens-hello-world/compare/v0.2.9...v0.2.10) (2021-07-28)
 
 
