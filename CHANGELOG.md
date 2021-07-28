@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.2.0](https://www.github.com/benkoshy/bens-hello-world/compare/v0.1.3...v0.2.0) (2021-07-28)
+
+
+### Features
+
+* add a dummy commit ([15ce40a](https://www.github.com/benkoshy/bens-hello-world/commit/15ce40a1e55118256eb6a22ba5c1fcce0498f996))
+
 ### [0.1.3](https://www.github.com/benkoshy/bens-hello-world/compare/v0.1.2...v0.1.3) (2021-07-28)
 
 
