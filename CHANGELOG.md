@@ -1,5 +1,13 @@
 # Changelog
 
+### [0.2.9](https://www.github.com/benkoshy/bens-hello-world/compare/v0.2.8...v0.2.9) (2021-07-28)
+
+
+### Bug Fixes
+
+* change version number to 2.9 ([3aabf8a](https://www.github.com/benkoshy/bens-hello-world/commit/3aabf8a7307cb37221f61986d90154bb5a98cf29))
+* release file number ([7ae6fff](https://www.github.com/benkoshy/bens-hello-world/commit/7ae6fffeb06618b4d8d33ffbdd147118c848484c))
+
 ### [0.2.8](https://www.github.com/benkoshy/bens-hello-world/compare/v0.2.7...v0.2.8) (2021-07-28)
 
 
