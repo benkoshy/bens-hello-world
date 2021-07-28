@@ -1,5 +1,13 @@
 # Changelog
 
+### [0.3.1](https://www.github.com/benkoshy/bens-hello-world/compare/v0.3.0...v0.3.1) (2021-07-28)
+
+
+### Bug Fixes
+
+* add manual release ([df810f3](https://www.github.com/benkoshy/bens-hello-world/commit/df810f3fbda089e64d0be1e6d423de04ce2495d4))
+* remove the action which pushes to ruby gems ([69febac](https://www.github.com/benkoshy/bens-hello-world/commit/69febacd7d7091823aeb25e89f2e08f84f7d0c1f))
+
 ## [0.3.0](https://www.github.com/benkoshy/bens-hello-world/compare/v0.2.10...v0.3.0) (2021-07-28)
 
 
