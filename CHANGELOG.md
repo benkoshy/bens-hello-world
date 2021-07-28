@@ -1,5 +1,12 @@
 # Changelog
 
+### [0.2.7](https://www.github.com/benkoshy/bens-hello-world/compare/v0.2.6...v0.2.7) (2021-07-28)
+
+
+### Bug Fixes
+
+* update version number ([c2e48a2](https://www.github.com/benkoshy/bens-hello-world/commit/c2e48a2203cc70c2e1040a130eae857fec4ff9c8))
+
 ### [0.2.6](https://www.github.com/benkoshy/bens-hello-world/compare/v0.2.5...v0.2.6) (2021-07-28)
 
 
