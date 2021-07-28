@@ -1,5 +1,12 @@
 # Changelog
 
+### [0.2.1](https://www.github.com/benkoshy/bens-hello-world/compare/v0.2.0...v0.2.1) (2021-07-28)
+
+
+### Bug Fixes
+
+* change version number due to yanked gem ([441436f](https://www.github.com/benkoshy/bens-hello-world/commit/441436fde7d049a867baa00c742e0772acaad5c8))
+
 ## [0.2.0](https://www.github.com/benkoshy/bens-hello-world/compare/v0.1.3...v0.2.0) (2021-07-28)
 
 
