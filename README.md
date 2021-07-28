@@ -1,3 +1,9 @@
+### What is this?
+
+This is a dummy gem used to the workflow of publishing gems via Github actions.
+
+The standard Readme is as below:
+
 # Bens::Hello::World
 
 Welcome to your new gem! In this directory, you'll find the files you need to be able to package up your Ruby library into a gem. Put your Ruby code in the file `lib/bens/hello/world`. To experiment with that code, run `bin/console` for an interactive prompt.
