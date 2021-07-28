@@ -1,5 +1,12 @@
 # Changelog
 
+### [0.1.3](https://www.github.com/benkoshy/bens-hello-world/compare/v0.1.2...v0.1.3) (2021-07-28)
+
+
+### Features
+
+* fix links ([2f225bb](https://www.github.com/benkoshy/bens-hello-world/commit/2f225bb3d6d2783cf26365871eeaeaa71cc8bc86))
+
 ### [0.1.2](https://www.github.com/benkoshy/bens-hello-world/compare/v0.1.1...v0.1.2) (2021-07-28)
 
 
