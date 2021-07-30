@@ -43,7 +43,17 @@ jobs:
       #   id: version
       #   run: |          
       #     echo "::set-output name=version::$(sed -nr "s/.*VERSION\s*=\s*('|\")([^'\"]+).*$/\2/p" $(echo "$GITHUB_WORKSPACE/lib/bens/hello/world/version.rb"))"
-   
+       # - name: Create tag
+       #  uses: actions/github-script@v3
+       #  with:
+       #    github-token: ${{ github.token }}
+       #    script: |
+       #      github.git.createRef({
+       #        owner: context.repo.owner,
+       #        repo: context.repo.repo,
+       #        ref: `refs/tags/${{steps.version.outputs.version}}`,
+       #        sha: context.sha
+       #      })
 
       - name: Get version number
         run: echo "VERSION=$(sed -nr "s/.*VERSION\s*=\s*('|\")([^'\"]+).*$/\2/p" $(echo "$GITHUB_WORKSPACE/lib/bens/hello/world/version.rb"))" >> $GITHUB_ENV
@@ -57,6 +67,6 @@ jobs:
             github.git.createRef({
               owner: context.repo.owner,
               repo: context.repo.repo,
-              ref: "refs/tags/".concat(${{env.VERSION}}),
+              ref: `refs/tags/${{env.VERSION}}`,
               sha: context.sha
             })
