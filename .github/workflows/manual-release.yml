@@ -7,8 +7,7 @@ on:
 jobs:
   manual-release:
     runs-on: ubuntu-latest
-    env:
-      VERSION: $(sed -nr "s/.*VERSION\s*=\s*('|\")([^'\"]+).*$/\2/p" $(echo "$GITHUB_WORKSPACE/lib/bens/hello/world/version.rb"))
+
     steps:
  
       - uses: actions/checkout@v2
@@ -56,5 +55,5 @@ jobs:
               ref: "refs/tags/".concat(${{env.VERSION}}),
               sha: context.sha
             })
-
-
+        env:
+          VERSION: echo $(sed -nr "s/.*VERSION\s*=\s*('|\")([^'\"]+).*$/\2/p" $(echo "$GITHUB_WORKSPACE/lib/bens/hello/world/version.rb"))                 
