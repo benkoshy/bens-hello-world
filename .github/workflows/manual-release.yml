@@ -37,7 +37,7 @@ jobs:
         # ideally we would read the version in the gem file and commit that.
 
         ## We wanna use this one for pagy
-        # echo "::set-output name=version::$(sed -nr "s/.*VERSION\s*=\s*('|\")([^'\"]+).*$/\2/p" $(echo "$GITHUB_WORKSPACE/pagy/lib/pagy.rb"))"
+        # echo "::set-output name=version::$(sed -nr "s/.*VERSION\s*=\s*('|\")([^'\"]+).*$/\2/p" $(echo "$GITHUB_WORKSPACE/lib/pagy.rb"))"
       - name: Get version number
         id: version
         run: |          
