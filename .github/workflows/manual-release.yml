@@ -34,4 +34,21 @@ jobs:
         # now, after the gem has been successfully published
         # we would need to automatically tag based on the current commit
         # ideally we would read the version in the gem file and commit that.
+      - name: Get version number
+        id: version
+        run: |
+          echo "::set-output version = $(sed -nr "s/.*VERSION\s*=\s*('|\")([^'\"]+).*$/\2/p" lib/pagy.rb)"
+
+      - name: Create tag
+        uses: actions/github-script@v3
+        with:
+          github-token: ${{ github.token }}
+          script: |
+            github.git.createRef({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              ref: `refs/tags/${{steps.version.outputs.version}}`,
+              sha: context.sha
+            })
+
 
