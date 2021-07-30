@@ -17,7 +17,7 @@ jobs:
           ruby-version: 3.0.0      
       - run: bundle install
       
-      
+
       # - name: publish gem
       #   run: |
       #     mkdir -p $HOME/.gem
@@ -40,8 +40,8 @@ jobs:
         # $(echo "$GITHUB_WORKSPACE/pagy/lib.pagy.rb”)
       - name: Get version number
         id: version
-        run: |
-          echo "::set-output version = $(sed -nr "s/.*VERSION\s*=\s*('|\")([^'\"]+).*$/\2/p" $(echo "$GITHUB_WORKSPACE/pagy/lib.pagy.rb”))"          
+        run: |          
+          echo "::set-output version = $(sed -nr "s/.*VERSION\s*=\s*('|\")([^'\"]+).*$/\2/p" $(echo "$GITHUB_WORKSPACE/pagy/lib.pagy.rb"))"
 
       - name: Create tag
         uses: actions/github-script@v3
