@@ -1,5 +1,16 @@
 # Changelog
 
+### [0.3.2](https://www.github.com/benkoshy/bens-hello-world/compare/v0.3.1...v0.3.2) (2021-07-30)
+
+
+### Bug Fixes
+
+* apostrophe issue ([b9eb72b](https://www.github.com/benkoshy/bens-hello-world/commit/b9eb72ba0ebd42bda983a8e061d6669cb8e27d15))
+* bump version number ([57939c6](https://www.github.com/benkoshy/bens-hello-world/commit/57939c606fa2a3d4902871e013fe8d356e8f5b91))
+* issue in getting the version out of the gem ([4378594](https://www.github.com/benkoshy/bens-hello-world/commit/4378594f875b6a79c60bc8144b53a4d141e4a858))
+* manual release by removing inputs required ([ffde43a](https://www.github.com/benkoshy/bens-hello-world/commit/ffde43a16f1382b3fa6845f36740307b85f5fc22))
+* update path for gem version ([c9f99d5](https://www.github.com/benkoshy/bens-hello-world/commit/c9f99d51c781e70b6487297b0514bdc785b0d0f8))
+
 ### [0.3.1](https://www.github.com/benkoshy/bens-hello-world/compare/v0.3.0...v0.3.1) (2021-07-28)
 
 
