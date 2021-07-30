@@ -38,10 +38,13 @@ jobs:
 
         # version=$(sed -nr "s/.*VERSION\s*=\s*('|\")([^'\"]+).*$/\2/p" lib/pagy.rb)        
         # $(echo "$GITHUB_WORKSPACE/pagy/lib.pagy.rb”)
+
+        ## We wanna use this one for pagy
+        # echo "::set-output version = $(sed -nr "s/.*VERSION\s*=\s*('|\")([^'\"]+).*$/\2/p" $(echo "$GITHUB_WORKSPACE/pagy/lib/pagy.rb"))"
       - name: Get version number
         id: version
         run: |          
-          echo "::set-output version = $(sed -nr "s/.*VERSION\s*=\s*('|\")([^'\"]+).*$/\2/p" $(echo "$GITHUB_WORKSPACE/pagy/lib.pagy.rb"))"
+          echo "::set-output version = $(sed -nr "s/.*VERSION\s*=\s*('|\")([^'\"]+).*$/\2/p" $(echo "$GITHUB_WORKSPACE/lib/bens/hello/world/version.rb"))"
 
       - name: Create tag
         uses: actions/github-script@v3
