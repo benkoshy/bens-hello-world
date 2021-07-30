@@ -44,7 +44,7 @@ jobs:
       - name: Get version number
         id: version
         run: |          
-          echo "::set-output version = $(sed -nr "s/.*VERSION\s*=\s*('|\")([^'\"]+).*$/\2/p" $(echo "$GITHUB_WORKSPACE/lib/bens/hello/world/version.rb"))"
+          echo "::set-output name=version::$(sed -nr "s/.*VERSION\s*=\s*('|\")([^'\"]+).*$/\2/p" $(echo "$GITHUB_WORKSPACE/lib/bens/hello/world/version.rb"))"
 
 
       - name: Test output of version        
