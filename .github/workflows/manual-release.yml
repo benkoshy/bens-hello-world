@@ -46,7 +46,7 @@ jobs:
    
 
       - name: Get version number
-        run: echo "VERSION = $(sed -nr "s/.*VERSION\s*=\s*('|\")([^'\"]+).*$/\2/p" $(echo "$GITHUB_WORKSPACE/lib/bens/hello/world/version.rb"))"
+        run: echo "VERSION = $(sed -nr "s/.*VERSION\s*=\s*('|\")([^'\"]+).*$/\2/p" $(echo "$GITHUB_WORKSPACE/lib/bens/hello/world/version.rb"))" >> $GITHUB_ENV
       - name: Create tag
         uses: actions/github-script@v3
         with:
