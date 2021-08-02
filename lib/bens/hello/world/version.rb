@@ -1,7 +1,7 @@
 module Bens
   module Hello
     module World
-      VERSION = "0.3.8"
+      VERSION = "4.10.2"
     end
   end
 end
