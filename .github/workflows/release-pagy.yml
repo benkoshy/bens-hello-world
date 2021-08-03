@@ -18,8 +18,7 @@ jobs:
 
       - name: Build and push
         run: |
-          mkdir -p $HOME/.gem
-          echo $RUBYGEM_CREDENTIALS
+          mkdir -p $HOME/.gem          
           printf -- "$RUBYGEM_CREDENTIALS" > $HOME/.gem/credentials          
           chmod 0600 $HOME/.gem/credentials
           gem build *.gemspec
