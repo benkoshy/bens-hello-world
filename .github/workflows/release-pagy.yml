@@ -22,7 +22,7 @@ jobs:
           printf -- "$RUBYGEM_CREDENTIALS" > $HOME/.gem/credentials
           chmod 0600 $HOME/.gem/credentials
           gem build *.gemspec
-          gem push pagy-*.gem
+          gem push *.gem
         env:
           RUBYGEMS_CREDENTIALS: |
             "${{secrets.RUBYGEMS_CREDENTIALS}}"
